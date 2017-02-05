@@ -87,3 +87,13 @@ function and() {
     var output = first + ' & ' + second + ' = ' + (first & second);
     print(output);
 }
+
+function select() {
+
+    var e = document.getElementById("numbers");
+    var id = e.options[e.selectedIndex].value;
+
+    var selectedNumber = readNumber(id);
+
+    print(selectedNumber);
+}
