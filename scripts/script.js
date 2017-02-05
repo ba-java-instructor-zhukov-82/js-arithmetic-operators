@@ -47,3 +47,43 @@ function leftShift() {
     var output = first + ' << ' + second + ' = ' + (first << second);
     print(output);
 }
+
+function rightShift() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' >> ' + second + ' = ' + (first >> second);
+    print(output);
+}
+
+function unsignedRightShift() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' >>> ' + second + ' = ' + (first >>> second);
+    print(output);
+}
+
+function xor() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' ^ ' + second + ' = ' + (first ^ second);
+    print(output);
+}
+
+function or() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' | ' + second + ' = ' + (first | second);
+    print(output);
+}
+
+function and() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' & ' + second + ' = ' + (first & second);
+    print(output);
+}
