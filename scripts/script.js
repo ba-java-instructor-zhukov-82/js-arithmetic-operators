@@ -39,3 +39,11 @@ function sub() {
     var output = first + ' - ' + second + ' = ' + (first - second);
     print(output);
 }
+
+function leftShift() {
+    var first = readNumber('n1');
+    var second = readNumber('n2');
+
+    var output = first + ' << ' + second + ' = ' + (first << second);
+    print(output);
+}
